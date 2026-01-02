@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80675292CA950400027ADD7 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80675282CA950400027ADD7 /* TextFieldStyle.swift */; };
+		E80E6F4B2CBFFBC800E6283A /* InfoPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E6F4A2CBFFBC800E6283A /* InfoPopup.swift */; };
+		E81D268D2C7D7B22009B388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81D268C2C7D7B22009B388B /* Assets.xcassets */; };
+		E81D26902C7D7B22009B388B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81D268F2C7D7B22009B388B /* Preview Assets.xcassets */; };
+		E81D26B52C7D7B44009B388B /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26992C7D7B44009B388B /* Tabbar.swift */; };
+		E81D26B62C7D7B44009B388B /* tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D269A2C7D7B44009B388B /* tab.swift */; };
+		E81D26B72C7D7B44009B388B /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D269B2C7D7B44009B388B /* TabShape.swift */; };
+		E81D26B82C7D7B44009B388B /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D269C2C7D7B44009B388B /* TabPosition.swift */; };
+		E81D26B92C7D7B44009B388B /* ThemeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D269E2C7D7B44009B388B /* ThemeSheet.swift */; };
+		E81D26BA2C7D7B44009B388B /* CustomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D269F2C7D7B44009B388B /* CustomSheet.swift */; };
+		E81D26BB2C7D7B44009B388B /* WideTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26A12C7D7B44009B388B /* WideTabView.swift */; };
+		E81D26BC2C7D7B44009B388B /* ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26A22C7D7B44009B388B /* ThemeStyle.swift */; };
+		E81D26BD2C7D7B44009B388B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26A42C7D7B44009B388B /* ColorExtension.swift */; };
+		E81D26BE2C7D7B44009B388B /* CALCULATORApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26A62C7D7B44009B388B /* CALCULATORApp.swift */; };
+		E81D26BF2C7D7B44009B388B /* IphoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26A72C7D7B44009B388B /* IphoneType.swift */; };
+		E81D26C02C7D7B44009B388B /* ContentViewCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26A82C7D7B44009B388B /* ContentViewCalculator.swift */; };
+		E81D26C42C7D7B44009B388B /* CalculationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26AF2C7D7B44009B388B /* CalculationInterface.swift */; };
+		E81D26C52C7D7B44009B388B /* Symbol_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26B12C7D7B44009B388B /* Symbol_number.swift */; };
+		E81D26C62C7D7B44009B388B /* ResultBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26B22C7D7B44009B388B /* ResultBoard.swift */; };
+		E81D26C82C7D7B44009B388B /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D26B42C7D7B44009B388B /* ButtonStyle.swift */; };
+		E81DE7762CBEBBB2005D5728 /* UnitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81DE7752CBEBBB2005D5728 /* UnitModel.swift */; };
+		E81DE7782CBEBBE1005D5728 /* SelectUnitPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81DE7772CBEBBE1005D5728 /* SelectUnitPopup.swift */; };
+		E81DE77A2CBEBC18005D5728 /* PickerUnitPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81DE7792CBEBC18005D5728 /* PickerUnitPopup.swift */; };
+		E81DE77C2CBEBC4F005D5728 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81DE77B2CBEBC4F005D5728 /* DetailViewModel.swift */; };
+		E81DE77E2CBEBC83005D5728 /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81DE77D2CBEBC83005D5728 /* CategoryManager.swift */; };
+		E82902F82CBF57B800ACC9BF /* NumpadKeyboardPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82902F72CBF57B800ACC9BF /* NumpadKeyboardPopup.swift */; };
+		E82902FA2CBF679000ACC9BF /* ConvertResultBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82902F92CBF679000ACC9BF /* ConvertResultBoard.swift */; };
+		E82B48E22C81D4AD0065AF76 /* ButtonPressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B48E12C81D4AD0065AF76 /* ButtonPressed.swift */; };
+		E82B48E42C81D4E50065AF76 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B48E32C81D4E50065AF76 /* Calculate.swift */; };
+		E838AAE62CC2130D00B61968 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838AAE52CC2130D00B61968 /* CreditView.swift */; };
+		E84B79402C82C99400A206BB /* StringProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B793F2C82C99400A206BB /* StringProcessing.swift */; };
+		E84D439F2C84B659007A7789 /* OperatorPrecedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84D439E2C84B659007A7789 /* OperatorPrecedence.swift */; };
+		E853F3512CDC72780054DD66 /* Expression in Frameworks */ = {isa = PBXBuildFile; productRef = E853F3502CDC72780054DD66 /* Expression */; };
+		E859ABAE2CBA72E700C4B1D2 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABA72CBA72E700C4B1D2 /* CanvasView.swift */; };
+		E859ABAF2CBA72E700C4B1D2 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABA82CBA72E700C4B1D2 /* CanvasViewController.swift */; };
+		E859ABB02CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E859ABA92CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodeld */; };
+		E859ABB12CBA72E700C4B1D2 /* AddNewCanvasPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABAB2CBA72E700C4B1D2 /* AddNewCanvasPopup.swift */; };
+		E859ABB22CBA72E700C4B1D2 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABAC2CBA72E700C4B1D2 /* Drawing.swift */; };
+		E859ABB32CBA72E700C4B1D2 /* PencilKitHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABAD2CBA72E700C4B1D2 /* PencilKitHome.swift */; };
+		E859ABBD2CBA737000C4B1D2 /* TextOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABB52CBA737000C4B1D2 /* TextOperation.swift */; };
+		E859ABBE2CBA737000C4B1D2 /* FontWeightSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABB62CBA737000C4B1D2 /* FontWeightSwitch.swift */; };
+		E859ABBF2CBA737000C4B1D2 /* PencilkitFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABB72CBA737000C4B1D2 /* PencilkitFramework.swift */; };
+		E859ABC02CBA737000C4B1D2 /* FontDesignSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABB82CBA737000C4B1D2 /* FontDesignSwitch.swift */; };
+		E859ABC12CBA737000C4B1D2 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABB92CBA737000C4B1D2 /* ColorPicker.swift */; };
+		E859ABC22CBA737000C4B1D2 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABBA2CBA737000C4B1D2 /* Slider.swift */; };
+		E859ABC32CBA737000C4B1D2 /* TextItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABBB2CBA737000C4B1D2 /* TextItem.swift */; };
+		E859ABC42CBA737000C4B1D2 /* NoteGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABBC2CBA737000C4B1D2 /* NoteGuide.swift */; };
+		E859ABC92CBA7CA300C4B1D2 /* UnitConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859ABC82CBA7CA300C4B1D2 /* UnitConverterView.swift */; };
+		E85F6D662C86A8A2006790E6 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F6D652C86A8A2006790E6 /* ResultType.swift */; };
+		E877CB6C2CC6961A00479DBD /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877CB6B2CC6961A00479DBD /* AppCard.swift */; };
+		E877CB6E2CC6967D00479DBD /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877CB6D2CC6967D00479DBD /* ContactCard.swift */; };
+		E88F4ABF2CC523DE00661F2A /* UnitConverterGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F4ABE2CC523DE00661F2A /* UnitConverterGuide.swift */; };
+		E88F4AC12CC53AD900661F2A /* CalculatorGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F4AC02CC53AD900661F2A /* CalculatorGuide.swift */; };
+		E899FD052CB61F1B005DE6E8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E899FD042CB61F1B005DE6E8 /* Persistence.swift */; };
+		E8A7A24F2CDF6A3D0098CE9E /* ScreenshotSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E8A7A24E2CDF6A3D0098CE9E /* ScreenshotSwiftUI */; };
+		E8B4E0292C99C47400F8DC8E /* Function_Operator_Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B4E0282C99C47400F8DC8E /* Function_Operator_Constant.swift */; };
+		E8DA456E2CA5AF49005E3331 /* ExtraOperatorInformationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA456D2CA5AF49005E3331 /* ExtraOperatorInformationSheet.swift */; };
+		E8E437E62C9AD5D5000CDE44 /* ExtraOperatorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E437E52C9AD5D5000CDE44 /* ExtraOperatorSheet.swift */; };
+		E8F793442CDE53A50024C852 /* dropDownMenuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F793432CDE53A50024C852 /* dropDownMenuTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E80675282CA950400027ADD7 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		E80E6F4A2CBFFBC800E6283A /* InfoPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPopup.swift; sourceTree = "<group>"; };
+		E81D26852C7D7B20009B388B /* PhomulaCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhomulaCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81D268C2C7D7B22009B388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E81D268F2C7D7B22009B388B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E81D26992C7D7B44009B388B /* Tabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		E81D269A2C7D7B44009B388B /* tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tab.swift; sourceTree = "<group>"; };
+		E81D269B2C7D7B44009B388B /* TabShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		E81D269C2C7D7B44009B388B /* TabPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		E81D269E2C7D7B44009B388B /* ThemeSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSheet.swift; sourceTree = "<group>"; };
+		E81D269F2C7D7B44009B388B /* CustomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSheet.swift; sourceTree = "<group>"; };
+		E81D26A12C7D7B44009B388B /* WideTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WideTabView.swift; sourceTree = "<group>"; };
+		E81D26A22C7D7B44009B388B /* ThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeStyle.swift; sourceTree = "<group>"; };
+		E81D26A42C7D7B44009B388B /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E81D26A62C7D7B44009B388B /* CALCULATORApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALCULATORApp.swift; sourceTree = "<group>"; };
+		E81D26A72C7D7B44009B388B /* IphoneType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IphoneType.swift; sourceTree = "<group>"; };
+		E81D26A82C7D7B44009B388B /* ContentViewCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewCalculator.swift; sourceTree = "<group>"; };
+		E81D26AF2C7D7B44009B388B /* CalculationInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationInterface.swift; sourceTree = "<group>"; };
+		E81D26B12C7D7B44009B388B /* Symbol_number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symbol_number.swift; sourceTree = "<group>"; };
+		E81D26B22C7D7B44009B388B /* ResultBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultBoard.swift; sourceTree = "<group>"; };
+		E81D26B42C7D7B44009B388B /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		E81DE7752CBEBBB2005D5728 /* UnitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitModel.swift; sourceTree = "<group>"; };
+		E81DE7772CBEBBE1005D5728 /* SelectUnitPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUnitPopup.swift; sourceTree = "<group>"; };
+		E81DE7792CBEBC18005D5728 /* PickerUnitPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerUnitPopup.swift; sourceTree = "<group>"; };
+		E81DE77B2CBEBC4F005D5728 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		E81DE77D2CBEBC83005D5728 /* CategoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
+		E82902F72CBF57B800ACC9BF /* NumpadKeyboardPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumpadKeyboardPopup.swift; sourceTree = "<group>"; };
+		E82902F92CBF679000ACC9BF /* ConvertResultBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertResultBoard.swift; sourceTree = "<group>"; };
+		E82B48E12C81D4AD0065AF76 /* ButtonPressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPressed.swift; sourceTree = "<group>"; };
+		E82B48E32C81D4E50065AF76 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		E838AAE52CC2130D00B61968 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		E84B793F2C82C99400A206BB /* StringProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProcessing.swift; sourceTree = "<group>"; };
+		E84D439E2C84B659007A7789 /* OperatorPrecedence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorPrecedence.swift; sourceTree = "<group>"; };
+		E859ABA72CBA72E700C4B1D2 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		E859ABA82CBA72E700C4B1D2 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		E859ABAA2CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drawing_Pencil_Kit.xcdatamodel; sourceTree = "<group>"; };
+		E859ABAB2CBA72E700C4B1D2 /* AddNewCanvasPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCanvasPopup.swift; sourceTree = "<group>"; };
+		E859ABAC2CBA72E700C4B1D2 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		E859ABAD2CBA72E700C4B1D2 /* PencilKitHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilKitHome.swift; sourceTree = "<group>"; };
+		E859ABB52CBA737000C4B1D2 /* TextOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextOperation.swift; sourceTree = "<group>"; };
+		E859ABB62CBA737000C4B1D2 /* FontWeightSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeightSwitch.swift; sourceTree = "<group>"; };
+		E859ABB72CBA737000C4B1D2 /* PencilkitFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilkitFramework.swift; sourceTree = "<group>"; };
+		E859ABB82CBA737000C4B1D2 /* FontDesignSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDesignSwitch.swift; sourceTree = "<group>"; };
+		E859ABB92CBA737000C4B1D2 /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		E859ABBA2CBA737000C4B1D2 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		E859ABBB2CBA737000C4B1D2 /* TextItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextItem.swift; sourceTree = "<group>"; };
+		E859ABBC2CBA737000C4B1D2 /* NoteGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteGuide.swift; sourceTree = "<group>"; };
+		E859ABC82CBA7CA300C4B1D2 /* UnitConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterView.swift; sourceTree = "<group>"; };
+		E85F6D652C86A8A2006790E6 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		E877CB6B2CC6961A00479DBD /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
+		E877CB6D2CC6967D00479DBD /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		E88F4ABE2CC523DE00661F2A /* UnitConverterGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterGuide.swift; sourceTree = "<group>"; };
+		E88F4AC02CC53AD900661F2A /* CalculatorGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorGuide.swift; sourceTree = "<group>"; };
+		E899FD042CB61F1B005DE6E8 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E8B4E0282C99C47400F8DC8E /* Function_Operator_Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function_Operator_Constant.swift; sourceTree = "<group>"; };
+		E8DA456D2CA5AF49005E3331 /* ExtraOperatorInformationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraOperatorInformationSheet.swift; sourceTree = "<group>"; };
+		E8E437E52C9AD5D5000CDE44 /* ExtraOperatorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraOperatorSheet.swift; sourceTree = "<group>"; };
+		E8F793432CDE53A50024C852 /* dropDownMenuTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropDownMenuTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E81D26822C7D7B20009B388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7A24F2CDF6A3D0098CE9E /* ScreenshotSwiftUI in Frameworks */,
+				E853F3512CDC72780054DD66 /* Expression in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81D267C2C7D7B20009B388B = {
+			isa = PBXGroup;
+			children = (
+				E81D26872C7D7B20009B388B /* CALCULATOR */,
+				E81D26862C7D7B20009B388B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E81D26862C7D7B20009B388B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26852C7D7B20009B388B /* PhomulaCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E81D26872C7D7B20009B388B /* CALCULATOR */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26A52C7D7B44009B388B /* APP_VIEW */,
+				E859ABC52CBA7C5800C4B1D2 /* UNIT_CONVERTER */,
+				E81D26962C7D7B44009B388B /* CALCULATOR */,
+				E899FCFB2CB61E88005DE6E8 /* PENCILKIT */,
+				E838AAE42CC212E500B61968 /* CREDIT */,
+				E81D268E2C7D7B22009B388B /* Preview Content */,
+				E81D268C2C7D7B22009B388B /* Assets.xcassets */,
+			);
+			path = CALCULATOR;
+			sourceTree = "<group>";
+		};
+		E81D268E2C7D7B22009B388B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E81D268F2C7D7B22009B388B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E81D26962C7D7B44009B388B /* CALCULATOR */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26AE2C7D7B44009B388B /* CALCULATION_INTERFACE */,
+				E81D26972C7D7B44009B388B /* SHEET_TABBAR */,
+				E81D26A32C7D7B44009B388B /* COLOR */,
+				E81D26AC2C7D7B44009B388B /* CALCULATION */,
+			);
+			path = CALCULATOR;
+			sourceTree = "<group>";
+		};
+		E81D26972C7D7B44009B388B /* SHEET_TABBAR */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26982C7D7B44009B388B /* TabBar */,
+				E81D269D2C7D7B44009B388B /* SHEET */,
+			);
+			path = SHEET_TABBAR;
+			sourceTree = "<group>";
+		};
+		E81D26982C7D7B44009B388B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26992C7D7B44009B388B /* Tabbar.swift */,
+				E81D269A2C7D7B44009B388B /* tab.swift */,
+				E81D269B2C7D7B44009B388B /* TabShape.swift */,
+				E81D269C2C7D7B44009B388B /* TabPosition.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E81D269D2C7D7B44009B388B /* SHEET */ = {
+			isa = PBXGroup;
+			children = (
+				E81D269E2C7D7B44009B388B /* ThemeSheet.swift */,
+				E8E437E52C9AD5D5000CDE44 /* ExtraOperatorSheet.swift */,
+				E8DA456D2CA5AF49005E3331 /* ExtraOperatorInformationSheet.swift */,
+				E81D269F2C7D7B44009B388B /* CustomSheet.swift */,
+			);
+			path = SHEET;
+			sourceTree = "<group>";
+		};
+		E81D26A02C7D7B44009B388B /* TAB_VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26A12C7D7B44009B388B /* WideTabView.swift */,
+				E81D26A22C7D7B44009B388B /* ThemeStyle.swift */,
+			);
+			path = TAB_VIEW;
+			sourceTree = "<group>";
+		};
+		E81D26A32C7D7B44009B388B /* COLOR */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26A42C7D7B44009B388B /* ColorExtension.swift */,
+			);
+			path = COLOR;
+			sourceTree = "<group>";
+		};
+		E81D26A52C7D7B44009B388B /* APP_VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26A02C7D7B44009B388B /* TAB_VIEW */,
+				E81D26A62C7D7B44009B388B /* CALCULATORApp.swift */,
+				E899FD042CB61F1B005DE6E8 /* Persistence.swift */,
+				E81D26A72C7D7B44009B388B /* IphoneType.swift */,
+				E81D26A82C7D7B44009B388B /* ContentViewCalculator.swift */,
+			);
+			path = APP_VIEW;
+			sourceTree = "<group>";
+		};
+		E81D26AC2C7D7B44009B388B /* CALCULATION */ = {
+			isa = PBXGroup;
+			children = (
+				E82B48E12C81D4AD0065AF76 /* ButtonPressed.swift */,
+				E82B48E32C81D4E50065AF76 /* Calculate.swift */,
+				E8B4E0282C99C47400F8DC8E /* Function_Operator_Constant.swift */,
+				E85F6D652C86A8A2006790E6 /* ResultType.swift */,
+				E84D439E2C84B659007A7789 /* OperatorPrecedence.swift */,
+				E84B793F2C82C99400A206BB /* StringProcessing.swift */,
+			);
+			path = CALCULATION;
+			sourceTree = "<group>";
+		};
+		E81D26AE2C7D7B44009B388B /* CALCULATION_INTERFACE */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26AF2C7D7B44009B388B /* CalculationInterface.swift */,
+				E81D26B02C7D7B44009B388B /* BUTTON_BOARD */,
+			);
+			path = CALCULATION_INTERFACE;
+			sourceTree = "<group>";
+		};
+		E81D26B02C7D7B44009B388B /* BUTTON_BOARD */ = {
+			isa = PBXGroup;
+			children = (
+				E81D26B12C7D7B44009B388B /* Symbol_number.swift */,
+				E81D26B22C7D7B44009B388B /* ResultBoard.swift */,
+				E81D26B42C7D7B44009B388B /* ButtonStyle.swift */,
+				E80675282CA950400027ADD7 /* TextFieldStyle.swift */,
+			);
+			path = BUTTON_BOARD;
+			sourceTree = "<group>";
+		};
+		E838AAE42CC212E500B61968 /* CREDIT */ = {
+			isa = PBXGroup;
+			children = (
+				E838AAE52CC2130D00B61968 /* CreditView.swift */,
+				E877CB6B2CC6961A00479DBD /* AppCard.swift */,
+				E877CB6D2CC6967D00479DBD /* ContactCard.swift */,
+				E88F4ABE2CC523DE00661F2A /* UnitConverterGuide.swift */,
+				E88F4AC02CC53AD900661F2A /* CalculatorGuide.swift */,
+				E859ABBC2CBA737000C4B1D2 /* NoteGuide.swift */,
+			);
+			path = CREDIT;
+			sourceTree = "<group>";
+		};
+		E859ABA62CBA72E700C4B1D2 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				E859ABA72CBA72E700C4B1D2 /* CanvasView.swift */,
+				E859ABA82CBA72E700C4B1D2 /* CanvasViewController.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		E859ABB42CBA737000C4B1D2 /* Canvas_details */ = {
+			isa = PBXGroup;
+			children = (
+				E859ABB52CBA737000C4B1D2 /* TextOperation.swift */,
+				E859ABB62CBA737000C4B1D2 /* FontWeightSwitch.swift */,
+				E859ABB72CBA737000C4B1D2 /* PencilkitFramework.swift */,
+				E859ABB82CBA737000C4B1D2 /* FontDesignSwitch.swift */,
+				E859ABB92CBA737000C4B1D2 /* ColorPicker.swift */,
+				E859ABBA2CBA737000C4B1D2 /* Slider.swift */,
+				E859ABBB2CBA737000C4B1D2 /* TextItem.swift */,
+			);
+			path = Canvas_details;
+			sourceTree = "<group>";
+		};
+		E859ABC52CBA7C5800C4B1D2 /* UNIT_CONVERTER */ = {
+			isa = PBXGroup;
+			children = (
+				E859ABC82CBA7CA300C4B1D2 /* UnitConverterView.swift */,
+				E81DE7772CBEBBE1005D5728 /* SelectUnitPopup.swift */,
+				E81DE7792CBEBC18005D5728 /* PickerUnitPopup.swift */,
+				E82902F72CBF57B800ACC9BF /* NumpadKeyboardPopup.swift */,
+				E80E6F4A2CBFFBC800E6283A /* InfoPopup.swift */,
+				E82902F92CBF679000ACC9BF /* ConvertResultBoard.swift */,
+				E81DE7752CBEBBB2005D5728 /* UnitModel.swift */,
+				E81DE77B2CBEBC4F005D5728 /* DetailViewModel.swift */,
+				E81DE77D2CBEBC83005D5728 /* CategoryManager.swift */,
+				E8F793432CDE53A50024C852 /* dropDownMenuTest.swift */,
+			);
+			path = UNIT_CONVERTER;
+			sourceTree = "<group>";
+		};
+		E899FCFB2CB61E88005DE6E8 /* PENCILKIT */ = {
+			isa = PBXGroup;
+			children = (
+				E859ABA62CBA72E700C4B1D2 /* Canvas */,
+				E859ABB42CBA737000C4B1D2 /* Canvas_details */,
+				E859ABA92CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodeld */,
+				E859ABAD2CBA72E700C4B1D2 /* PencilKitHome.swift */,
+				E859ABAC2CBA72E700C4B1D2 /* Drawing.swift */,
+				E859ABAB2CBA72E700C4B1D2 /* AddNewCanvasPopup.swift */,
+			);
+			path = PENCILKIT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E81D26842C7D7B20009B388B /* PhomulaCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81D26932C7D7B22009B388B /* Build configuration list for PBXNativeTarget "PhomulaCalc" */;
+			buildPhases = (
+				E81D26812C7D7B20009B388B /* Sources */,
+				E81D26822C7D7B20009B388B /* Frameworks */,
+				E81D26832C7D7B20009B388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhomulaCalc;
+			packageProductDependencies = (
+				E853F3502CDC72780054DD66 /* Expression */,
+				E8A7A24E2CDF6A3D0098CE9E /* ScreenshotSwiftUI */,
+			);
+			productName = CALCULATOR_2;
+			productReference = E81D26852C7D7B20009B388B /* PhomulaCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E81D267D2C7D7B20009B388B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = com.TaiNguyenHuu;
+				TargetAttributes = {
+					E81D26842C7D7B20009B388B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E81D26802C7D7B20009B388B /* Build configuration list for PBXProject "PhomulaCalc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E81D267C2C7D7B20009B388B;
+			packageReferences = (
+				E853F34F2CDC72780054DD66 /* XCRemoteSwiftPackageReference "Expression" */,
+				E8A7A24D2CDF6A3D0098CE9E /* XCRemoteSwiftPackageReference "ScreenshotSwiftUI" */,
+			);
+			productRefGroup = E81D26862C7D7B20009B388B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E81D26842C7D7B20009B388B /* PhomulaCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E81D26832C7D7B20009B388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81D26902C7D7B22009B388B /* Preview Assets.xcassets in Resources */,
+				E81D268D2C7D7B22009B388B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E81D26812C7D7B20009B388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B79402C82C99400A206BB /* StringProcessing.swift in Sources */,
+				E8F793442CDE53A50024C852 /* dropDownMenuTest.swift in Sources */,
+				E81D26BA2C7D7B44009B388B /* CustomSheet.swift in Sources */,
+				E859ABC92CBA7CA300C4B1D2 /* UnitConverterView.swift in Sources */,
+				E8B4E0292C99C47400F8DC8E /* Function_Operator_Constant.swift in Sources */,
+				E80675292CA950400027ADD7 /* TextFieldStyle.swift in Sources */,
+				E81D26BC2C7D7B44009B388B /* ThemeStyle.swift in Sources */,
+				E8DA456E2CA5AF49005E3331 /* ExtraOperatorInformationSheet.swift in Sources */,
+				E81D26C02C7D7B44009B388B /* ContentViewCalculator.swift in Sources */,
+				E81D26B92C7D7B44009B388B /* ThemeSheet.swift in Sources */,
+				E80E6F4B2CBFFBC800E6283A /* InfoPopup.swift in Sources */,
+				E81D26B52C7D7B44009B388B /* Tabbar.swift in Sources */,
+				E82902F82CBF57B800ACC9BF /* NumpadKeyboardPopup.swift in Sources */,
+				E859ABC42CBA737000C4B1D2 /* NoteGuide.swift in Sources */,
+				E81D26C42C7D7B44009B388B /* CalculationInterface.swift in Sources */,
+				E81D26BE2C7D7B44009B388B /* CALCULATORApp.swift in Sources */,
+				E82B48E42C81D4E50065AF76 /* Calculate.swift in Sources */,
+				E877CB6C2CC6961A00479DBD /* AppCard.swift in Sources */,
+				E81DE77C2CBEBC4F005D5728 /* DetailViewModel.swift in Sources */,
+				E82B48E22C81D4AD0065AF76 /* ButtonPressed.swift in Sources */,
+				E859ABC12CBA737000C4B1D2 /* ColorPicker.swift in Sources */,
+				E859ABB02CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodeld in Sources */,
+				E81D26B82C7D7B44009B388B /* TabPosition.swift in Sources */,
+				E81DE7782CBEBBE1005D5728 /* SelectUnitPopup.swift in Sources */,
+				E81DE7762CBEBBB2005D5728 /* UnitModel.swift in Sources */,
+				E81D26BF2C7D7B44009B388B /* IphoneType.swift in Sources */,
+				E877CB6E2CC6967D00479DBD /* ContactCard.swift in Sources */,
+				E859ABAE2CBA72E700C4B1D2 /* CanvasView.swift in Sources */,
+				E859ABBE2CBA737000C4B1D2 /* FontWeightSwitch.swift in Sources */,
+				E859ABBF2CBA737000C4B1D2 /* PencilkitFramework.swift in Sources */,
+				E859ABB32CBA72E700C4B1D2 /* PencilKitHome.swift in Sources */,
+				E81D26C62C7D7B44009B388B /* ResultBoard.swift in Sources */,
+				E81D26C82C7D7B44009B388B /* ButtonStyle.swift in Sources */,
+				E85F6D662C86A8A2006790E6 /* ResultType.swift in Sources */,
+				E859ABC32CBA737000C4B1D2 /* TextItem.swift in Sources */,
+				E88F4ABF2CC523DE00661F2A /* UnitConverterGuide.swift in Sources */,
+				E88F4AC12CC53AD900661F2A /* CalculatorGuide.swift in Sources */,
+				E81DE77A2CBEBC18005D5728 /* PickerUnitPopup.swift in Sources */,
+				E859ABB12CBA72E700C4B1D2 /* AddNewCanvasPopup.swift in Sources */,
+				E899FD052CB61F1B005DE6E8 /* Persistence.swift in Sources */,
+				E82902FA2CBF679000ACC9BF /* ConvertResultBoard.swift in Sources */,
+				E81D26B62C7D7B44009B388B /* tab.swift in Sources */,
+				E859ABC02CBA737000C4B1D2 /* FontDesignSwitch.swift in Sources */,
+				E84D439F2C84B659007A7789 /* OperatorPrecedence.swift in Sources */,
+				E81D26C52C7D7B44009B388B /* Symbol_number.swift in Sources */,
+				E81D26B72C7D7B44009B388B /* TabShape.swift in Sources */,
+				E81D26BD2C7D7B44009B388B /* ColorExtension.swift in Sources */,
+				E838AAE62CC2130D00B61968 /* CreditView.swift in Sources */,
+				E81DE77E2CBEBC83005D5728 /* CategoryManager.swift in Sources */,
+				E859ABC22CBA737000C4B1D2 /* Slider.swift in Sources */,
+				E859ABBD2CBA737000C4B1D2 /* TextOperation.swift in Sources */,
+				E8E437E62C9AD5D5000CDE44 /* ExtraOperatorSheet.swift in Sources */,
+				E859ABAF2CBA72E700C4B1D2 /* CanvasViewController.swift in Sources */,
+				E81D26BB2C7D7B44009B388B /* WideTabView.swift in Sources */,
+				E859ABB22CBA72E700C4B1D2 /* Drawing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E81D26912C7D7B22009B388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E81D26922C7D7B22009B388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E81D26942C7D7B22009B388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"CALCULATOR/Preview Content\"";
+				DEVELOPMENT_TEAM = B6Q42W99R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhomulaCalc-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PhomulaCalc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app is requesting access to the user's photo library to store note images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HungNguyenHuuPhuc.PhomulaCalc;
+				PRODUCT_NAME = PhomulaCalc;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E81D26952C7D7B22009B388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"CALCULATOR/Preview Content\"";
+				DEVELOPMENT_TEAM = B6Q42W99R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhomulaCalc-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PhomulaCalc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app is requesting access to the user's photo library to store note images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HungNguyenHuuPhuc.PhomulaCalc;
+				PRODUCT_NAME = PhomulaCalc;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E81D26802C7D7B20009B388B /* Build configuration list for PBXProject "PhomulaCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81D26912C7D7B22009B388B /* Debug */,
+				E81D26922C7D7B22009B388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81D26932C7D7B22009B388B /* Build configuration list for PBXNativeTarget "PhomulaCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81D26942C7D7B22009B388B /* Debug */,
+				E81D26952C7D7B22009B388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E853F34F2CDC72780054DD66 /* XCRemoteSwiftPackageReference "Expression" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicklockwood/Expression";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		E8A7A24D2CDF6A3D0098CE9E /* XCRemoteSwiftPackageReference "ScreenshotSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gualtierofrigerio/ScreenshotSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E853F3502CDC72780054DD66 /* Expression */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E853F34F2CDC72780054DD66 /* XCRemoteSwiftPackageReference "Expression" */;
+			productName = Expression;
+		};
+		E8A7A24E2CDF6A3D0098CE9E /* ScreenshotSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A7A24D2CDF6A3D0098CE9E /* XCRemoteSwiftPackageReference "ScreenshotSwiftUI" */;
+			productName = ScreenshotSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E859ABA92CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E859ABAA2CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodel */,
+			);
+			currentVersion = E859ABAA2CBA72E700C4B1D2 /* Drawing_Pencil_Kit.xcdatamodel */;
+			path = Drawing_Pencil_Kit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E81D267D2C7D7B20009B388B /* Project object */;
+}

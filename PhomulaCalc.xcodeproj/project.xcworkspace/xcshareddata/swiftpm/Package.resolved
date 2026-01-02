@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "expression",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/Expression",
+      "state" : {
+        "branch" : "main",
+        "revision" : "95ffe4c352e456cede933d9910d25b9c84039d1b"
+      }
+    },
+    {
+      "identity" : "screenshotswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gualtierofrigerio/ScreenshotSwiftUI.git",
+      "state" : {
+        "revision" : "5ce615b99effcf41c17a4357d17ccb1308f281a9",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}
